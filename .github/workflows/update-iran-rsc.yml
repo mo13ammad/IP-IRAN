@@ -18,9 +18,11 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
+      - name: Make script executable
+        run: chmod +x scripts/generate_iran_rsc.sh
+
       - name: Generate RSC
-        run: |
-          ./scripts/generate_iran_rsc.sh generated/iran.rsc
+        run: ./scripts/generate_iran_rsc.sh generated/iran.rsc
 
       - name: Commit & Push if changed
         run: |
@@ -29,8 +31,8 @@ jobs:
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "mo13ammad"
+          git config user.email "mohammadsaadati74@gmail.com"
 
           git add generated/iran.rsc
           git commit -m "chore: update Iran IP list (RSC)"
