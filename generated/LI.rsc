@@ -1,0 +1,101 @@
+# Last update: 2026-02-06 17:44:09 UTC
+# Country: LI
+# Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=LI&v4_format=prefix
+
+/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=LIv6]
+/ipv6 firewall address-list
+:do { add address=2001:678:bbc::/48 list=LIv6 } on-error={}
+:do { add address=2001:67c:18dc::/48 list=LIv6 } on-error={}
+:do { add address=2001:67c:2570::/48 list=LIv6 } on-error={}
+:do { add address=2001:67c:2dc0::/48 list=LIv6 } on-error={}
+:do { add address=2001:67c:2ec0::/48 list=LIv6 } on-error={}
+:do { add address=2001:7f8:66::/48 list=LIv6 } on-error={}
+:do { add address=2a00:ec0::/32 list=LIv6 } on-error={}
+:do { add address=2a00:abc0::/32 list=LIv6 } on-error={}
+:do { add address=2a00:da60::/29 list=LIv6 } on-error={}
+:do { add address=2a00:f8c0::/32 list=LIv6 } on-error={}
+:do { add address=2a02:380::/31 list=LIv6 } on-error={}
+:do { add address=2a03:3420::/32 list=LIv6 } on-error={}
+:do { add address=2a03:43e0::/32 list=LIv6 } on-error={}
+:do { add address=2a03:4c80::/32 list=LIv6 } on-error={}
+:do { add address=2a03:5260::/32 list=LIv6 } on-error={}
+:do { add address=2a03:5360::/32 list=LIv6 } on-error={}
+:do { add address=2a03:5480::/29 list=LIv6 } on-error={}
+:do { add address=2a06:1940::/29 list=LIv6 } on-error={}
+:do { add address=2a0a:aec0::/29 list=LIv6 } on-error={}
+:do { add address=2a0c:2e40::/30 list=LIv6 } on-error={}
+:do { add address=2a0c:d780::/29 list=LIv6 } on-error={}
+:do { add address=2a0d:d300::/32 list=LIv6 } on-error={}
+:do { add address=2a0e:11c0::/32 list=LIv6 } on-error={}
+:do { add address=2a10:4140::/29 list=LIv6 } on-error={}
+:do { add address=2a10:8940::/29 list=LIv6 } on-error={}
+:do { add address=2a10:d2c0::/32 list=LIv6 } on-error={}
+:do { add address=2a13:7c40::/32 list=LIv6 } on-error={}
+:do { add address=2a13:8500::/29 list=LIv6 } on-error={}
+:do { add address=2a13:a880::/29 list=LIv6 } on-error={}
+
+/ip firewall address-list remove [/ip firewall address-list find list=IP-LI]
+/ip firewall address-list
+:do { add address=5.34.248.0/21 list=IP-LI } on-error={}
+:do { add address=31.10.16.0/20 list=IP-LI } on-error={}
+:do { add address=45.80.175.0/24 list=IP-LI } on-error={}
+:do { add address=45.81.12.0/22 list=IP-LI } on-error={}
+:do { add address=45.90.8.0/22 list=IP-LI } on-error={}
+:do { add address=46.18.111.0/24 list=IP-LI } on-error={}
+:do { add address=80.66.224.0/20 list=IP-LI } on-error={}
+:do { add address=80.72.48.0/20 list=IP-LI } on-error={}
+:do { add address=80.241.112.0/20 list=IP-LI } on-error={}
+:do { add address=80.248.192.0/20 list=IP-LI } on-error={}
+:do { add address=81.161.56.0/23 list=IP-LI } on-error={}
+:do { add address=82.117.0.0/19 list=IP-LI } on-error={}
+:do { add address=85.31.152.0/21 list=IP-LI } on-error={}
+:do { add address=88.82.96.0/19 list=IP-LI } on-error={}
+:do { add address=89.248.144.0/20 list=IP-LI } on-error={}
+:do { add address=91.207.130.0/23 list=IP-LI } on-error={}
+:do { add address=91.217.207.0/24 list=IP-LI } on-error={}
+:do { add address=91.232.229.0/24 list=IP-LI } on-error={}
+:do { add address=130.43.168.0/24 list=IP-LI } on-error={}
+:do { add address=149.255.176.0/21 list=IP-LI } on-error={}
+:do { add address=176.119.216.0/24 list=IP-LI } on-error={}
+:do { add address=185.19.35.0/24 list=IP-LI } on-error={}
+:do { add address=185.27.64.0/22 list=IP-LI } on-error={}
+:do { add address=185.34.148.0/22 list=IP-LI } on-error={}
+:do { add address=185.44.156.0/22 list=IP-LI } on-error={}
+:do { add address=185.70.80.0/22 list=IP-LI } on-error={}
+:do { add address=185.73.156.0/22 list=IP-LI } on-error={}
+:do { add address=185.77.44.0/22 list=IP-LI } on-error={}
+:do { add address=185.77.52.0/22 list=IP-LI } on-error={}
+:do { add address=185.101.8.0/22 list=IP-LI } on-error={}
+:do { add address=185.101.48.0/22 list=IP-LI } on-error={}
+:do { add address=185.112.48.0/22 list=IP-LI } on-error={}
+:do { add address=185.117.164.0/22 list=IP-LI } on-error={}
+:do { add address=185.170.216.0/22 list=IP-LI } on-error={}
+:do { add address=185.170.220.0/22 list=IP-LI } on-error={}
+:do { add address=185.174.32.0/22 list=IP-LI } on-error={}
+:do { add address=185.197.181.0/24 list=IP-LI } on-error={}
+:do { add address=185.208.120.0/22 list=IP-LI } on-error={}
+:do { add address=185.236.220.0/22 list=IP-LI } on-error={}
+:do { add address=185.246.232.0/22 list=IP-LI } on-error={}
+:do { add address=185.251.164.0/22 list=IP-LI } on-error={}
+:do { add address=185.251.184.0/22 list=IP-LI } on-error={}
+:do { add address=188.240.40.0/23 list=IP-LI } on-error={}
+:do { add address=193.5.26.0/23 list=IP-LI } on-error={}
+:do { add address=193.17.79.0/24 list=IP-LI } on-error={}
+:do { add address=193.32.84.0/24 list=IP-LI } on-error={}
+:do { add address=193.168.168.0/22 list=IP-LI } on-error={}
+:do { add address=193.200.236.0/24 list=IP-LI } on-error={}
+:do { add address=193.202.240.0/20 list=IP-LI } on-error={}
+:do { add address=193.222.112.0/20 list=IP-LI } on-error={}
+:do { add address=194.11.203.0/24 list=IP-LI } on-error={}
+:do { add address=194.56.144.0/22 list=IP-LI } on-error={}
+:do { add address=194.124.188.0/22 list=IP-LI } on-error={}
+:do { add address=194.147.68.0/23 list=IP-LI } on-error={}
+:do { add address=194.147.196.0/22 list=IP-LI } on-error={}
+:do { add address=194.147.200.0/21 list=IP-LI } on-error={}
+:do { add address=195.211.32.0/22 list=IP-LI } on-error={}
+:do { add address=195.225.200.0/22 list=IP-LI } on-error={}
+:do { add address=195.242.248.0/22 list=IP-LI } on-error={}
+:do { add address=195.245.218.0/24 list=IP-LI } on-error={}
+:do { add address=195.254.128.0/23 list=IP-LI } on-error={}
+:do { add address=212.77.32.0/19 list=IP-LI } on-error={}
+:do { add address=217.173.224.0/20 list=IP-LI } on-error={}

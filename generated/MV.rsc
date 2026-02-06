@@ -1,0 +1,71 @@
+# Last update: 2026-02-06 17:44:09 UTC
+# Country: MV
+# Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MV&v4_format=prefix
+
+/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=MVv6]
+/ipv6 firewall address-list
+:do { add address=2001:dde::/48 list=MVv6 } on-error={}
+:do { add address=2001:dec:c000::/48 list=MVv6 } on-error={}
+:do { add address=2001:df0:1d00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df0:1f00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df0:7040::/48 list=MVv6 } on-error={}
+:do { add address=2001:df1:5540::/48 list=MVv6 } on-error={}
+:do { add address=2001:df3:300::/48 list=MVv6 } on-error={}
+:do { add address=2001:df3:ea00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df4:5b00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df5:6a00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df5:df00::/48 list=MVv6 } on-error={}
+:do { add address=2001:df7:9980::/48 list=MVv6 } on-error={}
+:do { add address=2401:8300::/32 list=MVv6 } on-error={}
+:do { add address=2404:ab80::/32 list=MVv6 } on-error={}
+:do { add address=2406:e400::/32 list=MVv6 } on-error={}
+:do { add address=2406:e401::/32 list=MVv6 } on-error={}
+
+/ip firewall address-list remove [/ip firewall address-list find list=IP-MV]
+/ip firewall address-list
+:do { add address=27.114.128.0/18 list=IP-MV } on-error={}
+:do { add address=36.255.104.0/23 list=IP-MV } on-error={}
+:do { add address=43.226.220.0/22 list=IP-MV } on-error={}
+:do { add address=43.231.28.0/22 list=IP-MV } on-error={}
+:do { add address=43.247.140.0/22 list=IP-MV } on-error={}
+:do { add address=69.94.32.0/20 list=IP-MV } on-error={}
+:do { add address=69.94.80.0/20 list=IP-MV } on-error={}
+:do { add address=83.137.200.0/21 list=IP-MV } on-error={}
+:do { add address=103.15.52.0/22 list=IP-MV } on-error={}
+:do { add address=103.19.224.0/22 list=IP-MV } on-error={}
+:do { add address=103.31.84.0/22 list=IP-MV } on-error={}
+:do { add address=103.50.104.0/22 list=IP-MV } on-error={}
+:do { add address=103.55.161.0/24 list=IP-MV } on-error={}
+:do { add address=103.67.26.0/24 list=IP-MV } on-error={}
+:do { add address=103.71.57.0/24 list=IP-MV } on-error={}
+:do { add address=103.76.2.0/24 list=IP-MV } on-error={}
+:do { add address=103.84.132.0/24 list=IP-MV } on-error={}
+:do { add address=103.84.134.0/24 list=IP-MV } on-error={}
+:do { add address=103.103.66.0/24 list=IP-MV } on-error={}
+:do { add address=103.110.40.0/24 list=IP-MV } on-error={}
+:do { add address=103.110.109.0/24 list=IP-MV } on-error={}
+:do { add address=103.110.110.0/23 list=IP-MV } on-error={}
+:do { add address=103.119.75.0/24 list=IP-MV } on-error={}
+:do { add address=103.141.98.0/24 list=IP-MV } on-error={}
+:do { add address=103.143.252.0/24 list=IP-MV } on-error={}
+:do { add address=103.172.31.0/24 list=IP-MV } on-error={}
+:do { add address=103.173.79.0/24 list=IP-MV } on-error={}
+:do { add address=103.182.172.0/24 list=IP-MV } on-error={}
+:do { add address=103.191.77.0/24 list=IP-MV } on-error={}
+:do { add address=103.197.164.0/22 list=IP-MV } on-error={}
+:do { add address=103.248.112.0/22 list=IP-MV } on-error={}
+:do { add address=115.84.128.0/19 list=IP-MV } on-error={}
+:do { add address=123.176.0.0/19 list=IP-MV } on-error={}
+:do { add address=124.195.192.0/19 list=IP-MV } on-error={}
+:do { add address=150.107.196.0/22 list=IP-MV } on-error={}
+:do { add address=185.215.32.0/22 list=IP-MV } on-error={}
+:do { add address=202.1.192.0/22 list=IP-MV } on-error={}
+:do { add address=202.1.196.0/22 list=IP-MV } on-error={}
+:do { add address=202.1.200.0/21 list=IP-MV } on-error={}
+:do { add address=202.21.176.0/20 list=IP-MV } on-error={}
+:do { add address=202.153.80.0/21 list=IP-MV } on-error={}
+:do { add address=203.82.2.0/23 list=IP-MV } on-error={}
+:do { add address=203.104.24.0/21 list=IP-MV } on-error={}
+:do { add address=209.212.192.0/19 list=IP-MV } on-error={}
+:do { add address=216.183.208.0/20 list=IP-MV } on-error={}
+:do { add address=220.158.220.0/22 list=IP-MV } on-error={}

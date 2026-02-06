@@ -1,0 +1,98 @@
+# Last update: 2026-02-06 17:44:09 UTC
+# Country: LA
+# Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=LA&v4_format=prefix
+
+/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=LAv6]
+/ipv6 firewall address-list
+:do { add address=2001:df0:bf::/48 list=LAv6 } on-error={}
+:do { add address=2001:df0:df80::/48 list=LAv6 } on-error={}
+:do { add address=2001:df3:640::/48 list=LAv6 } on-error={}
+:do { add address=2001:df3:5e80::/48 list=LAv6 } on-error={}
+:do { add address=2001:df3:6c40::/48 list=LAv6 } on-error={}
+:do { add address=2001:df3:de40::/48 list=LAv6 } on-error={}
+:do { add address=2001:df3:e000::/48 list=LAv6 } on-error={}
+:do { add address=2001:df4:51c0::/48 list=LAv6 } on-error={}
+:do { add address=2001:df4:6400::/48 list=LAv6 } on-error={}
+:do { add address=2001:df4:b900::/48 list=LAv6 } on-error={}
+:do { add address=2400:81c0::/32 list=LAv6 } on-error={}
+:do { add address=2400:aa00::/32 list=LAv6 } on-error={}
+:do { add address=2400:c180::/32 list=LAv6 } on-error={}
+:do { add address=2400:d3a0::/32 list=LAv6 } on-error={}
+:do { add address=2401:d4a0::/32 list=LAv6 } on-error={}
+:do { add address=2401:e060::/32 list=LAv6 } on-error={}
+:do { add address=2401:e9a0::/32 list=LAv6 } on-error={}
+:do { add address=2402:3220::/32 list=LAv6 } on-error={}
+:do { add address=2402:6840::/32 list=LAv6 } on-error={}
+:do { add address=2402:8c80::/32 list=LAv6 } on-error={}
+:do { add address=2402:8d80::/32 list=LAv6 } on-error={}
+:do { add address=2404:2e00::/32 list=LAv6 } on-error={}
+:do { add address=2404:adc0::/32 list=LAv6 } on-error={}
+:do { add address=2404:c200::/32 list=LAv6 } on-error={}
+:do { add address=2405:1c40::/32 list=LAv6 } on-error={}
+:do { add address=2406:1640::/32 list=LAv6 } on-error={}
+:do { add address=2407:4280::/32 list=LAv6 } on-error={}
+:do { add address=2407:f7c0::/32 list=LAv6 } on-error={}
+
+/ip firewall address-list remove [/ip firewall address-list find list=IP-LA]
+/ip firewall address-list
+:do { add address=43.224.36.0/22 list=IP-LA } on-error={}
+:do { add address=43.228.84.0/22 list=IP-LA } on-error={}
+:do { add address=43.252.244.0/22 list=IP-LA } on-error={}
+:do { add address=101.78.8.0/21 list=IP-LA } on-error={}
+:do { add address=103.1.28.0/22 list=IP-LA } on-error={}
+:do { add address=103.1.232.0/22 list=IP-LA } on-error={}
+:do { add address=103.13.88.0/22 list=IP-LA } on-error={}
+:do { add address=103.26.103.0/24 list=IP-LA } on-error={}
+:do { add address=103.43.76.0/22 list=IP-LA } on-error={}
+:do { add address=103.59.52.0/22 list=IP-LA } on-error={}
+:do { add address=103.63.188.0/24 list=IP-LA } on-error={}
+:do { add address=103.66.238.0/23 list=IP-LA } on-error={}
+:do { add address=103.81.180.0/24 list=IP-LA } on-error={}
+:do { add address=103.82.56.0/22 list=IP-LA } on-error={}
+:do { add address=103.95.24.0/22 list=IP-LA } on-error={}
+:do { add address=103.109.116.0/22 list=IP-LA } on-error={}
+:do { add address=103.112.191.0/24 list=IP-LA } on-error={}
+:do { add address=103.114.146.0/23 list=IP-LA } on-error={}
+:do { add address=103.137.88.0/22 list=IP-LA } on-error={}
+:do { add address=103.138.142.0/24 list=IP-LA } on-error={}
+:do { add address=103.140.246.0/23 list=IP-LA } on-error={}
+:do { add address=103.145.48.0/24 list=IP-LA } on-error={}
+:do { add address=103.150.74.0/23 list=IP-LA } on-error={}
+:do { add address=103.151.76.0/23 list=IP-LA } on-error={}
+:do { add address=103.164.89.0/24 list=IP-LA } on-error={}
+:do { add address=103.174.8.0/23 list=IP-LA } on-error={}
+:do { add address=103.205.16.0/22 list=IP-LA } on-error={}
+:do { add address=103.228.101.0/24 list=IP-LA } on-error={}
+:do { add address=103.228.252.0/22 list=IP-LA } on-error={}
+:do { add address=103.232.80.0/22 list=IP-LA } on-error={}
+:do { add address=103.240.240.0/22 list=IP-LA } on-error={}
+:do { add address=103.245.164.0/24 list=IP-LA } on-error={}
+:do { add address=103.245.167.0/24 list=IP-LA } on-error={}
+:do { add address=114.129.24.0/21 list=IP-LA } on-error={}
+:do { add address=115.84.64.0/18 list=IP-LA } on-error={}
+:do { add address=139.5.156.0/22 list=IP-LA } on-error={}
+:do { add address=141.164.96.0/20 list=IP-LA } on-error={}
+:do { add address=157.15.126.0/23 list=IP-LA } on-error={}
+:do { add address=157.119.180.0/22 list=IP-LA } on-error={}
+:do { add address=160.22.40.0/23 list=IP-LA } on-error={}
+:do { add address=160.187.128.0/23 list=IP-LA } on-error={}
+:do { add address=160.191.178.0/23 list=IP-LA } on-error={}
+:do { add address=160.250.220.0/23 list=IP-LA } on-error={}
+:do { add address=161.248.192.0/23 list=IP-LA } on-error={}
+:do { add address=163.61.160.128/26 list=IP-LA } on-error={}
+:do { add address=165.99.248.0/24 list=IP-LA } on-error={}
+:do { add address=180.131.148.0/22 list=IP-LA } on-error={}
+:do { add address=183.182.96.0/19 list=IP-LA } on-error={}
+:do { add address=185.19.104.0/22 list=IP-LA } on-error={}
+:do { add address=185.126.144.0/22 list=IP-LA } on-error={}
+:do { add address=185.129.140.0/22 list=IP-LA } on-error={}
+:do { add address=202.9.76.0/23 list=IP-LA } on-error={}
+:do { add address=202.62.96.0/20 list=IP-LA } on-error={}
+:do { add address=202.123.176.0/21 list=IP-LA } on-error={}
+:do { add address=202.136.240.0/21 list=IP-LA } on-error={}
+:do { add address=202.137.128.0/19 list=IP-LA } on-error={}
+:do { add address=202.144.184.0/21 list=IP-LA } on-error={}
+:do { add address=203.19.5.0/24 list=IP-LA } on-error={}
+:do { add address=203.76.252.0/22 list=IP-LA } on-error={}
+:do { add address=203.77.168.0/21 list=IP-LA } on-error={}
+:do { add address=203.110.64.0/20 list=IP-LA } on-error={}
