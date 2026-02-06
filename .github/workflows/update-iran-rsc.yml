@@ -1,8 +1,8 @@
-name: Update Iran RSC
+name: Update Country RSCs
 
 on:
   schedule:
-    - cron: "0 * * * *"   # هر ساعت (دقیقه ۰)
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -18,11 +18,11 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Make script executable
-        run: chmod +x scripts/generate_iran_rsc.sh
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
 
-      - name: Generate RSC files
-        run: ./scripts/generate_iran_rsc.sh generated/iran.rsc generated/iran.commands.rsc generated/iran.prefixes.txt
+      - name: Generate all country RSCs
+        run: ./scripts/generate_all_countries_rsc.sh countries.txt generated
 
       - name: Commit & Push if changed
         run: |
@@ -34,6 +34,6 @@ jobs:
           git config user.name "Mohammad"
           git config user.email "mohammadsaadati74@gmail.com"
 
-          git add generated/iran.rsc generated/iran.commands.rsc generated/iran.prefixes.txt
-          git commit -m "chore: update Iran IP lists (RSC + commands)"
+          git add generated/*.rsc countries.txt
+          git commit -m "chore: update country RSC files"
           git push
