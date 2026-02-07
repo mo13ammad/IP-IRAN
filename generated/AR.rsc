@@ -1,4 +1,4 @@
-# Last update: 2026-02-07 16:16:19 UTC
+# Last update: 2026-02-07 17:17:47 UTC
 # Country: AR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AR&v4_format=prefix
 
@@ -110,7 +110,6 @@
 :do { add address=2801:11:6000::/48 list=ARv6 } on-error={}
 :do { add address=2801:11:7000::/48 list=ARv6 } on-error={}
 :do { add address=2801:11:b000::/48 list=ARv6 } on-error={}
-:do { add address=2801:11:c000::/48 list=ARv6 } on-error={}
 :do { add address=2801:11:d000::/48 list=ARv6 } on-error={}
 :do { add address=2801:12:5000::/48 list=ARv6 } on-error={}
 :do { add address=2801:12:8000::/48 list=ARv6 } on-error={}
@@ -1115,6 +1114,7 @@
 :do { add address=2803:f300::/32 list=ARv6 } on-error={}
 :do { add address=2803:f380::/32 list=ARv6 } on-error={}
 :do { add address=2803:f3e0::/32 list=ARv6 } on-error={}
+:do { add address=2803:f430::/32 list=ARv6 } on-error={}
 :do { add address=2803:f460::/32 list=ARv6 } on-error={}
 :do { add address=2803:f4c0::/32 list=ARv6 } on-error={}
 :do { add address=2803:f4d0::/32 list=ARv6 } on-error={}
@@ -1986,7 +1986,6 @@
 :do { add address=179.0.147.0/24 list=IP-AR } on-error={}
 :do { add address=179.0.148.0/24 list=IP-AR } on-error={}
 :do { add address=179.0.149.0/24 list=IP-AR } on-error={}
-:do { add address=179.0.150.0/24 list=IP-AR } on-error={}
 :do { add address=179.0.151.0/24 list=IP-AR } on-error={}
 :do { add address=179.0.180.0/22 list=IP-AR } on-error={}
 :do { add address=179.0.184.0/22 list=IP-AR } on-error={}

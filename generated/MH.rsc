@@ -1,4 +1,4 @@
-# Last update: 2026-02-07 16:16:19 UTC
+# Last update: 2026-02-07 17:17:47 UTC
 # Country: MH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MH&v4_format=prefix
 
@@ -6,6 +6,7 @@
 /ipv6 firewall address-list
 :do { add address=2405:400::/32 list=MHv6 } on-error={}
 :do { add address=2602:f8bb::/40 list=MHv6 } on-error={}
+:do { add address=2a0f:4a80::/29 list=MHv6 } on-error={}
 :do { add address=2a13:2380::/29 list=MHv6 } on-error={}
 :do { add address=2a13:77c0::/29 list=MHv6 } on-error={}
 :do { add address=2a14:7d40::/29 list=MHv6 } on-error={}
