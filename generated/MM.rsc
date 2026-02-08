@@ -1,4 +1,4 @@
-# Last update: 2026-02-08 16:17:11 UTC
+# Last update: 2026-02-08 17:17:33 UTC
 # Country: MM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MM&v4_format=prefix
 
@@ -98,6 +98,7 @@
 :do { add address=2401:f200::/32 list=MMv6 } on-error={}
 :do { add address=2401:fea0::/32 list=MMv6 } on-error={}
 :do { add address=2402:2ee0::/32 list=MMv6 } on-error={}
+:do { add address=2402:4ca0::/32 list=MMv6 } on-error={}
 :do { add address=2402:6540::/32 list=MMv6 } on-error={}
 :do { add address=2402:7ec0::/32 list=MMv6 } on-error={}
 :do { add address=2402:8ec0::/32 list=MMv6 } on-error={}
@@ -320,6 +321,7 @@
 :do { add address=123.253.228.0/22 list=IP-MM } on-error={}
 :do { add address=136.228.160.0/20 list=IP-MM } on-error={}
 :do { add address=151.158.136.0/23 list=IP-MM } on-error={}
+:do { add address=151.158.146.0/23 list=IP-MM } on-error={}
 :do { add address=157.10.224.0/23 list=IP-MM } on-error={}
 :do { add address=157.15.52.0/23 list=IP-MM } on-error={}
 :do { add address=157.15.142.0/23 list=IP-MM } on-error={}
