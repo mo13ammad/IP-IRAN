@@ -1,4 +1,4 @@
-# Last update: 2026-02-10 15:55:50 UTC
+# Last update: 2026-02-10 16:53:32 UTC
 # Country: IR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IR&v4_format=prefix
 
@@ -1439,6 +1439,7 @@
 :do { add address=151.238.0.0/15 list=IP-IR } on-error={}
 :do { add address=152.89.12.0/22 list=IP-IR } on-error={}
 :do { add address=152.89.44.0/22 list=IP-IR } on-error={}
+:do { add address=153.51.128.0/19 list=IP-IR } on-error={}
 :do { add address=157.119.188.0/22 list=IP-IR } on-error={}
 :do { add address=158.58.0.0/17 list=IP-IR } on-error={}
 :do { add address=158.58.184.0/21 list=IP-IR } on-error={}
@@ -2198,6 +2199,8 @@
 :do { add address=188.253.64.0/19 list=IP-IR } on-error={}
 :do { add address=192.15.0.0/16 list=IP-IR } on-error={}
 :do { add address=192.166.36.0/24 list=IP-IR } on-error={}
+:do { add address=192.166.37.0/24 list=IP-IR } on-error={}
+:do { add address=192.166.38.0/24 list=IP-IR } on-error={}
 :do { add address=193.0.156.0/24 list=IP-IR } on-error={}
 :do { add address=193.3.31.0/24 list=IP-IR } on-error={}
 :do { add address=193.3.182.0/24 list=IP-IR } on-error={}
@@ -2353,6 +2356,7 @@
 :do { add address=194.147.222.0/24 list=IP-IR } on-error={}
 :do { add address=194.150.68.0/22 list=IP-IR } on-error={}
 :do { add address=194.150.165.0/24 list=IP-IR } on-error={}
+:do { add address=194.156.77.0/24 list=IP-IR } on-error={}
 :do { add address=194.156.140.0/22 list=IP-IR } on-error={}
 :do { add address=194.180.11.0/24 list=IP-IR } on-error={}
 :do { add address=194.180.208.0/23 list=IP-IR } on-error={}

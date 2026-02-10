@@ -1,4 +1,4 @@
-# Last update: 2026-02-10 15:55:50 UTC
+# Last update: 2026-02-10 16:53:32 UTC
 # Country: NL
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NL&v4_format=prefix
 
@@ -32,7 +32,6 @@
 :do { add address=2001:678:3e0::/48 list=NLv6 } on-error={}
 :do { add address=2001:678:440::/48 list=NLv6 } on-error={}
 :do { add address=2001:678:56c::/48 list=NLv6 } on-error={}
-:do { add address=2001:678:58c::/48 list=NLv6 } on-error={}
 :do { add address=2001:678:5b4::/48 list=NLv6 } on-error={}
 :do { add address=2001:678:668::/48 list=NLv6 } on-error={}
 :do { add address=2001:678:688::/48 list=NLv6 } on-error={}
@@ -6916,6 +6915,7 @@
 :do { add address=193.222.132.0/24 list=IP-NL } on-error={}
 :do { add address=193.222.137.0/24 list=IP-NL } on-error={}
 :do { add address=193.223.72.0/22 list=IP-NL } on-error={}
+:do { add address=193.223.100.0/24 list=IP-NL } on-error={}
 :do { add address=193.228.127.0/24 list=IP-NL } on-error={}
 :do { add address=193.228.224.0/23 list=IP-NL } on-error={}
 :do { add address=193.228.228.0/24 list=IP-NL } on-error={}

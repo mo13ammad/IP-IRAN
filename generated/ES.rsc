@@ -1,4 +1,4 @@
-# Last update: 2026-02-10 15:55:50 UTC
+# Last update: 2026-02-10 16:53:32 UTC
 # Country: ES
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ES&v4_format=prefix
 
@@ -1461,7 +1461,6 @@
 :do { add address=79.108.0.0/17 list=IP-ES } on-error={}
 :do { add address=79.108.128.0/19 list=IP-ES } on-error={}
 :do { add address=79.108.200.0/21 list=IP-ES } on-error={}
-:do { add address=79.108.208.0/21 list=IP-ES } on-error={}
 :do { add address=79.108.226.0/24 list=IP-ES } on-error={}
 :do { add address=79.108.228.0/22 list=IP-ES } on-error={}
 :do { add address=79.108.232.0/21 list=IP-ES } on-error={}
@@ -1717,6 +1716,7 @@
 :do { add address=87.101.88.0/22 list=IP-ES } on-error={}
 :do { add address=87.111.0.0/16 list=IP-ES } on-error={}
 :do { add address=87.117.96.0/20 list=IP-ES } on-error={}
+:do { add address=87.121.134.0/23 list=IP-ES } on-error={}
 :do { add address=87.124.128.0/18 list=IP-ES } on-error={}
 :do { add address=87.124.192.0/18 list=IP-ES } on-error={}
 :do { add address=87.125.0.0/16 list=IP-ES } on-error={}
