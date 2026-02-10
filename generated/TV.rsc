@@ -1,4 +1,4 @@
-# Last update: 2026-02-10 07:51:43 UTC
+# Last update: 2026-02-10 08:37:40 UTC
 # Country: TV
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TV&v4_format=prefix
 
