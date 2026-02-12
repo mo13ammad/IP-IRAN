@@ -1,4 +1,4 @@
-# Last update: 2026-02-12 15:40:10 UTC
+# Last update: 2026-02-12 16:44:35 UTC
 # Country: ES
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ES&v4_format=prefix
 
@@ -770,10 +770,12 @@
 :do { add address=2a0f:a240::/29 list=ESv6 } on-error={}
 :do { add address=2a0f:c680::/29 list=ESv6 } on-error={}
 :do { add address=2a0f:d140::/29 list=ESv6 } on-error={}
+:do { add address=2a0f:d6c0::/32 list=ESv6 } on-error={}
 :do { add address=2a0f:de00::/29 list=ESv6 } on-error={}
 :do { add address=2a0f:f040::/29 list=ESv6 } on-error={}
 :do { add address=2a0f:f200::/29 list=ESv6 } on-error={}
 :do { add address=2a0f:f940::/29 list=ESv6 } on-error={}
+:do { add address=2a10:80::/29 list=ESv6 } on-error={}
 :do { add address=2a10:c0::/29 list=ESv6 } on-error={}
 :do { add address=2a10:300::/29 list=ESv6 } on-error={}
 :do { add address=2a10:1500::/29 list=ESv6 } on-error={}
@@ -782,6 +784,7 @@
 :do { add address=2a10:2640::/32 list=ESv6 } on-error={}
 :do { add address=2a10:3700::/29 list=ESv6 } on-error={}
 :do { add address=2a10:3800::/29 list=ESv6 } on-error={}
+:do { add address=2a10:4d00::/29 list=ESv6 } on-error={}
 :do { add address=2a10:4e80::/29 list=ESv6 } on-error={}
 :do { add address=2a10:5100::/29 list=ESv6 } on-error={}
 :do { add address=2a10:5280::/29 list=ESv6 } on-error={}
@@ -1641,7 +1644,6 @@
 :do { add address=85.137.48.0/20 list=IP-ES } on-error={}
 :do { add address=85.137.80.0/20 list=IP-ES } on-error={}
 :do { add address=85.137.112.0/20 list=IP-ES } on-error={}
-:do { add address=85.137.160.0/22 list=IP-ES } on-error={}
 :do { add address=85.137.168.0/21 list=IP-ES } on-error={}
 :do { add address=85.137.176.0/20 list=IP-ES } on-error={}
 :do { add address=85.137.208.0/21 list=IP-ES } on-error={}
