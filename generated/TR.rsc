@@ -1,4 +1,4 @@
-# Last update: 2026-02-12 12:37:21 UTC
+# Last update: 2026-02-12 14:02:31 UTC
 # Country: TR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TR&v4_format=prefix
 
