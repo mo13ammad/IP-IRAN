@@ -1,4 +1,4 @@
-# Last update: 2026-02-13 15:31:37 UTC
+# Last update: 2026-02-13 16:31:27 UTC
 # Country: SE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SE&v4_format=prefix
 
@@ -1191,8 +1191,6 @@
 :do { add address=80.244.192.0/20 list=IP-SE } on-error={}
 :do { add address=80.245.224.0/20 list=IP-SE } on-error={}
 :do { add address=80.248.128.0/21 list=IP-SE } on-error={}
-:do { add address=80.248.137.0/24 list=IP-SE } on-error={}
-:do { add address=80.248.138.0/23 list=IP-SE } on-error={}
 :do { add address=80.248.140.0/22 list=IP-SE } on-error={}
 :do { add address=80.248.224.0/20 list=IP-SE } on-error={}
 :do { add address=80.251.192.0/20 list=IP-SE } on-error={}
