@@ -1,4 +1,4 @@
-# Last update: 2026-02-14 14:17:03 UTC
+# Last update: 2026-02-14 15:15:00 UTC
 # Country: BJ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BJ&v4_format=prefix
 
