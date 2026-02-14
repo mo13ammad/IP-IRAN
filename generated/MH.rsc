@@ -1,4 +1,4 @@
-# Last update: 2026-02-14 13:36:53 UTC
+# Last update: 2026-02-14 14:17:03 UTC
 # Country: MH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MH&v4_format=prefix
 
